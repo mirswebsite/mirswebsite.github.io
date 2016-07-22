@@ -1,0 +1,116 @@
+@media screen and (max-width:480px) {
+	/****** index.html *********/
+	.title_div {
+		text-align: center;
+	}
+
+	.nav_items {
+		width: 100%;
+
+	}
+	.nav_items li {
+		clear: both;
+		width: 100%;
+		padding: 5px;
+	}
+
+	#gallery img {
+		margin: 3%;
+		width: 94%;
+	}
+
+	/****** about.html *********/
+	ul {
+		clear: both;
+	}
+
+	.image_info {
+		margin: 4%;
+		width: 96%;
+	}
+
+	.image_info p {
+		padding: 2px;
+	}
+
+	/****** contact.html *********/
+	fieldset {
+		margin: 4%;
+		width: 96%;
+	}
+
+	#legend {
+		font-size: .8em;
+		padding: 2px;
+	}
+
+	input[type=text] {
+		width: 55%;
+	
+	}
+	textarea {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width:660px) {
+	/********* about.html ********/
+	ul {
+		clear: both;
+	}
+
+	.image_info {
+		margin: 4%;
+		width: 96%;
+	}
+
+	.image_info p {
+		padding: 2px;
+	}
+
+	/********* contact.html ********/
+	fieldset {
+		margin: 10%;
+		width: 85%;
+		margin-right: 15%;
+	}
+
+	#legend {
+		font-size: .8em;
+		padding: 2px;
+	}
+
+	input[type=text] {
+		width: 55%;
+	
+	}
+	textarea {
+		width: 55%;
+	}
+
+	.internal-link li {
+	display: block;
+	}
+}
+
+@media screen and (max-width:800px) {
+	/********* contact.html ********/
+	fieldset {
+		margin: 15%;
+		width: 65%;
+		margin-right: 20%;
+	}
+
+	#legend {
+		font-size: .8em;
+		padding: 2px;
+	}
+
+	input[type=text] {
+		width: 55%;
+	
+	}
+	textarea {
+		width: 55%;
+	}
+}

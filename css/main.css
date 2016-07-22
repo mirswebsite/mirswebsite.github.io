@@ -1,0 +1,234 @@
+body {
+		background-image: url("../images/background_image.jpg");
+		display: none;
+}
+
+.navigation {
+	color: white;
+	font-size: 1.5em;
+}
+
+.title {
+	font-family: 'Fruktur', cursive;
+	padding-top: 20px;
+	margin-left: 30px;
+	margin-top: 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 2.5em;
+	text-shadow: 1.5px 1.5px orange;
+}
+
+.title:hover {
+	border-bottom: 1px solid orange;
+	transition-duration: 0.7s;
+}
+
+.nav_items a {
+	font-family: 'Tillana', cursive;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 3px solid orange;
+	text-align: center;
+}
+
+.nav_items a:hover {
+	background-color: orange;
+	color: black !important;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+
+}
+
+.selected {
+	background-color: orange;
+	color: black;
+	border-radius: 5px;
+}
+.navigation li {
+	display: inline-block; 
+}
+
+.navigation ul {
+	text-align: center;
+}
+/************************
+gallery style 
+************************/
+
+#gallery {
+	margin: 5%;
+	padding: 0;
+}
+
+#gallery img {
+	float: left;
+	width: 26.67%;
+	margin: 1.67%;
+	border: 5px solid white;
+	border-radius: 2px;
+}
+
+.image_title {
+	font-family: 'BioRhyme', serif;
+	color: white;
+	clear: both;
+	font-size: 1.5em;
+}
+
+/************************
+about page style 
+************************/
+.image_info {
+	text-align: center;
+	margin: 3% 20% 3% 20%;
+	box-shadow: inset 0 0 20px orange;
+	padding: 3%;
+	border-radius: 7px;
+}
+
+.image_info img {
+	width: 80%;
+	margin:5%;
+}
+
+.image_info p {
+	font-family: 'Handlee', cursive;
+	font-size: 1.3em;
+	color: #D2CECE;
+	text-align: left;
+}
+
+.image_info a {
+	color: white;
+	font-size: 1em;
+}
+
+.internal-link {
+	text-align: center;
+}
+.internal-link a {
+	font-size: 1.2em;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+
+.internal-link li {
+	font-family: 'Satisfy', cursive;
+	font-size: 1.3em;
+	display: inline-block;
+	padding: 7px;
+}
+
+.internal-link a:hover{
+	color: orange;
+}
+
+
+/************************
+contact page style 
+************************/
+#legend {
+	background-color: orange;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1em;
+	border: 2px solid orange;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+
+fieldset {
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.3em;
+
+}
+
+input {
+	border-radius: 5px;
+	font-size: 0.6em;
+	padding-left: 10px;
+	margin: 10px 0 10px 0;
+	width: 45%;
+	height: 30px;
+}
+
+input:focus {
+	outline: none;
+	border: none;
+	-moz-box-shadow: inset 0 0 20px orange;
+    -webkit-box-shadow: inset 0 0 20px orange;
+   	box-shadow: inset 0 0 20px orange;
+}
+
+input[type=text] {
+	font-size: 0.8em;
+	width: 45%;
+	-webkit-transition: width .35s ease-out;
+	transition: width .35s ease-out;
+}
+input[type=text]:focus {
+ 	width: 65%;
+}
+
+textarea {
+	font-size: 0.8em;
+	width: 46%;
+	height: 200px;
+	margin-top: 1%;
+	padding: 10px; 
+}
+
+textarea:focus {
+	outline: none;
+	border: none;
+	-moz-box-shadow: inset 0 0 20px orange;
+    -webkit-box-shadow: inset 0 0 20px orange;
+   	box-shadow: inset 0 0 20px orange;
+}
+
+button {
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	width: 30%;
+	height: 40px;
+	font-size: 0.7em;
+	border-radius: 5px;
+}
+
+/*******************************
+footer style
+*******************************/
+footer {
+	clear: both;
+	width: 100%;
+	margin-top: 50px;
+	padding: 7px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-right: none;
+	margin-left: none;
+	box-shadow: inset 0 0 40px orange;
+}
+footer img {
+	padding-top: 5px;
+	padding-left: 7px;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+footer p {
+	color: white;
+}
